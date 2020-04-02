@@ -14,12 +14,13 @@ setuptools.setup(
         'PIL', 'interval'
     ],
     packages=setuptools.find_packages(),
-    author='jinsihou',
+    author='jinsihou19',
     author_email='540097546@qq.com',
+    url='https://github.com/jinsihou19/E-Paper-UI-Kit',
     classifiers=[
         'Development Status :: 3 - Alpha',
         'Intended Audience :: Developers',
-        'Topic :: Raspberry :: EPaper',  # 给模块加话题标签
+        'Topic :: Raspberry :: EPaper',
         'License :: OSI Approved :: MIT License',
         'Programming Language :: Python :: 3',
         'Programming Language :: Python :: 3.4',
