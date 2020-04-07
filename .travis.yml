@@ -7,3 +7,13 @@ install:
 
 script:
   - python demo.py
+
+
+deploy:
+  provider: pypi
+  user: jinsihou19
+  password: "${password}"
+  on:
+    python: 3.6
+    tags: true
+    branch: master
