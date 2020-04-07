@@ -1,6 +1,5 @@
 from PIL import ImageDraw
 
-from EPUIKit.utils.res import icon
 from EPUIKit.widget.widget import Widget
 
 
@@ -14,8 +13,7 @@ class Label(Widget):
     def paint(self, canvas, dimension):
         pen = ImageDraw.Draw(canvas)
         if self.image is not None:
-            im = icon(self.image, (self.image_size, self.image_size))
-            canvas.paste(im, (dimension.x, dimension.y))
+            canvas.paste(self.image, (dimension.x, dimension.y))
             pen.text((dimension.x + self.image_size, dimension.y), self.text, font=self.font, fill=0)
         else:
             pen.text((dimension.x, dimension.y), self.text, font=self.font, fill=0)
