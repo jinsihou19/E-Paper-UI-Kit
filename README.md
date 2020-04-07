@@ -1,6 +1,7 @@
 # E-Paper-UI-Kit
 
 ![PyPI](https://img.shields.io/pypi/v/epuikit)
+![travis-ci](https://travis-ci.com/jinsihou19/E-Paper-UI-Kit.svg?branch=master)
 
 UIKit for Raspberry on E-Paper
 
